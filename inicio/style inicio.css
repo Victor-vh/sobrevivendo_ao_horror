@@ -1,0 +1,72 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+body{
+    background-image: url(../imagens/campo.jpg);
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+    background-color:#d9d9d9;
+    max-width:500px;
+    margin: auto;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 3px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #001427;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a:hover{
+        color:#45637a
+}
+.bloco1{
+    text-align: center;
+    max-width: 800px;
+    margin:0 auto;
+}
+.bloco2{
+    max-width: 980px;
+    margin:0 auto;
+    text-align: center;
+}
+.fundo1{
+    background-color:#ebe7e7;
+}
+.fundo2{
+    background-color:#e4e4e3;
+}
+#campo{
+    color:#656d4a;
+}
+#tca{
+    color:#3a5a40;
+}
+#cidade{
+    color:#936639;
+}
+#tci{
+    color:#582f0e;
+}
+h1{
+    color:#001427;
+}
+footer{
+    background-color:#c9c9c9;
+    height: 100%;
+}
+.textofooter{
+    text-align: center; 
+     justify-content: space-evenly;
+ }
+ 
